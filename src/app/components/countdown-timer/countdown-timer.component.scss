@@ -1,0 +1,29 @@
+:host {    
+    display: block;
+    margin: 2rem auto;
+    width: fit-content; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+.countdown-container {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    border: 2px solid #007bff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    &-timer-label {
+        display: inline-block;
+        margin-right: 0.5rem;
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: #333;
+    }
+
+    &-timer-value {
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: #c0392b;
+    }
+}
